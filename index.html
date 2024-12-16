@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <h1>OKSI PANAHONSKI</h1>
+        <div>
+            <label for="municipality">Oksi Bayan:</label>
+            <select id="municipality">
+                <option value="mamburao">Mamburao</option>
+                <option value="sablayan">Sablayan</option>
+                <option value="sanjose">San Jose</option>
+                <option value="looc">Looc</option>
+                <option value="lubang">Lubang</option>
+                <option value="rizal">Rizal</option>
+                <option value="calintaan">Calintaan</option>
+                <option value="abra_de_ilog">Abra de Ilog</option>
+                <option value="paluan">Paluan</option>
+                <option value="magsaysay">Magsaysay</option>
+
+                <!-- Add more municipalities here -->
+            </select>
+        </div>
+        <div class="weather-details">
+            <p id="location"></p>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="humidity"></p>
+            <p id="precipitation"></p>
+            <p id="dateTime"></p> <!-- Added for Date and Time -->
+        </div>
+        <button id="refreshButton">Panahonski</button> <!-- Refresh button -->
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
